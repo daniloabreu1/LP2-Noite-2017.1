@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lp2.lab;
+package lp2.lab02;
 
 /**
  *
  * @author Danilo Abreu
  */
-public class Funcionario {
+public class Jogador {
     
 }
