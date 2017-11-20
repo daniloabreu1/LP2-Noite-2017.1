@@ -31,7 +31,7 @@ public class ContaTeste {
         c.setTotalBonificacao(f);
         c.setTotalBonificacao(g1);
         System.out.println("Total de bonificacoes: "+c.getTotalBonificacao());
-        
+        System.out.println(f.toString());
         
     }
 }

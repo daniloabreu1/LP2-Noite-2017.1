@@ -69,4 +69,10 @@ public abstract class Conta {
     public static void zerarQuantidade() {
         setQuantidade(0);
     }
+
+    @Override
+    public String toString() {
+        return "Conta{" + "saldo=" + saldo + ", numero=" + numero + '}';
+    }
+    
 }
