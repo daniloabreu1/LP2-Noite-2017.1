@@ -20,7 +20,7 @@ public class TesteComum {
     @Test
     public void testeGetSalario() {
         c.setSalario(1000);
-        c.setAbono(100);
+        Comum.setAbono(100);
         assertEquals(1100, c.getSalario(),0.0);
     }
     
@@ -28,6 +28,7 @@ public class TesteComum {
     public void testGetNome(){
         c.setNome("Maria");
         assertEquals("Maria",c.getNome());
+        c.setNome("maria");
         assertEquals("maria",c.getNome());
     }
 }

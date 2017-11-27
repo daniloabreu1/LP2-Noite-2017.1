@@ -5,6 +5,7 @@
  */
 package aula11.junit;
 
+
 import aula11.codigos.Gerente;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,16 +17,17 @@ import static org.junit.Assert.*;
  */
 public class TesteGerente {
     
+    Gerente g;
     public TesteGerente() {
     }
     
     @Before
     public void setUp() {
+        g = new Gerente();
     }
     
     @Test
     public void testeBonificacao(){
-        Gerente g = new Gerente();
         g.setSalario(3000);
         g.setBonificacao(1000);
         assertEquals(4000, g.getSalario(),0.0);

@@ -21,8 +21,6 @@ class Funcionario {
         this.nome = nome;
     }
     
-    
-
     public double getSalario() {
         return salario;
     }

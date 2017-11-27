@@ -5,7 +5,6 @@
  */
 package aula11.junit;
 
-import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -16,9 +15,5 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({aula11.junit.TesteComum.class, aula11.junit.TesteGerente.class})
 public class TestarTudo {
-
-    @Before
-    public void setUp() throws Exception {
-    }
     
 }
